@@ -1,0 +1,78 @@
+/*
+  Theme Name: Al Souqi Theme
+  Theme URI:
+  Description: Wordpress theme for Al Souqi Group Investment
+  Version: 1.0.0
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@100&display=swap');
+html {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background: #2B2B2B 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  margin-top: 32.13px;
+}
+#menu-main-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 632px;
+}
+
+#menu-main-menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+header img {
+  cursor: pointer;
+}
+
+a:active {
+  border-bottom: rgb(255, 255, 255) solid 1px;
+}
+
+.menuicon {
+  width: 20px;
+}
+
+.aboutus-title::before {
+  display: inline-block;
+  content: "";
+  border-top: .3rem #C5A47E;
+  width: 4rem;
+  margin: 0 1rem;
+  transform: translateY(-1rem);
+}
+
+.services-items {
+  height: 125px;
+  border-style: solid;
+  border-color: #bbbbbb;
+}
+
+.vce-content-background-container {
+  opacity: 0.3;
+}
+
+.right-contact {
+  margin-right:0!important;
+}
+
+.footer-img {
+  width: 100%;
+}
+
+.laptop-move:hover {
+  opacity: 1;
+}
